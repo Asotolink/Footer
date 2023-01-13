@@ -1,0 +1,68 @@
+/* CSS BÁSICO */
+/* ********** */
+
+:root{
+    --colorFondo: #200063;
+    --colorLogotipo: #FFFFFF;
+    --colorLetra: #DDDDDD;
+    --colorRectangulos: #150043;
+    --tamanyoLetra: 14px;
+    --tamanyoLetraLogo: 20.24px;
+}
+
+
+.container{
+    background-color: var(--colorFondo);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 309px;
+}
+
+.logo{
+    color: var(--colorLogotipo);
+    font-size: var(--tamanyoLetraLogo);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto auto;
+}
+
+.letraNav{
+    color: var(--colorLetra);
+    font-size: var(--tamanyoLetra);
+}
+
+.texto{
+    max-width: 48%;
+    margin: auto;
+    font-size: var(--tamanyoLetra);
+    color: var(--colorLetra);
+
+}
+
+.abajo{
+    display: flex;
+}
+
+.iconos{
+    width: 11%;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-around;
+}
+.r1{
+    background-color: var(--colorRectangulos);
+    width: 40%;
+    height: 50px;
+    border-top-right-radius: 80px;
+}
+.r2{
+    background-color: var(--colorRectangulos);
+    width: 40%;
+    border-top-left-radius: 80px;
+}
