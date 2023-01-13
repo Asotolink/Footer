@@ -2,3 +2,58 @@
 /* @FOOTER */
 /* ********* */
 
+.container{
+    background-color: map-get($colores, colorFondo );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 309px;
+}
+
+.logo{
+    color: map-get($colores, colorLogotipo );
+    font-size: map-get($tamanyos, tamanyoLetraLogo );
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto auto;
+}
+
+.letraNav{
+    color: map-get($colores, colorLetra );
+    font-size: map-get($tamanyos, tamanyoLetra );
+}
+
+.texto{
+    max-width: 48%;
+    margin: auto;
+    font-size: map-get($tamanyos, tamanyoLetra );
+    color: map-get($colores, colorLetra );
+
+}
+
+.abajo{
+    display: flex;
+}
+
+.iconos{
+    width: 11%;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-around;
+}
+.r1{
+    background-color: map-get($colores, colorRectangulos );
+    width: 40%;
+    height: 50px;
+    border-top-right-radius: 80px;
+}
+.r2{
+    background-color: map-get($colores, colorRectangulos );
+    width: 40%;
+    border-top-left-radius: 80px;
+}
